@@ -16,7 +16,8 @@ There's also an example partial in the examples folder.
 ```javascript
 var analyst = new Analyst();
 analyst.initialize('{{env('GOOGLE_ANALYTICS')}}').trackPageview();
-
+analyst.trackEvents();
+analyst.requireAutotrackAll();
 ```
 
 We use an environment variable in Laravel to inject the analytics code, to make this snippet completely reusable.
