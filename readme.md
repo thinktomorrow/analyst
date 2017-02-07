@@ -28,12 +28,14 @@ We use an environment variable in Laravel to inject the analytics code, to make 
 The main goal of Analyst is to make event tracking easy as pie. (or any other pastry you might prefer).
 We have set up some predefined tracker so you can throw a class on an element an it will be tracked.
 
-Current predefined trackers include: * .locale_track
-                                     * .reveal_track
-                                     * .button_track
-                                     * .track                              
+Current predefined trackers include: 
+- .locale_track
+- .reveal_track
+- .button_track
+- .track                              
 
 If you use one of the first three you're ready to go as is, but it still allows you to specify data-analyst-label on the element to set your own label.
-The .track class requires some data attributes: * data-analyst-label
-                                                * data-analyst-category
-                                                * data-analyst-action
+The .track class requires some data attributes: 
+- data-analyst-label
+- data-analyst-category
+- data-analyst-action
